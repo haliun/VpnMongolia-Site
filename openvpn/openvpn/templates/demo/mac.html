@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+    {%  load i18n %}
+<section id="demos" class="block background01 animatedParent animateOnce">
+	<div class="row">
+	 <div class="demos">
+          <div class="animated fadeIn slow">
+            <h2>{% trans "Руководство использования"  %}</h2>
+            <p>Mac PC
+              <br>{% trans "Пошаговая инструкция с картинками"  %}</p>
+          </div>
+        </div>
+	</div>
+	<div class="container">
+	<p>{% trans "Скоро будет.."  %}</p>
+	
+    </div>                
+	
+</section>
+{% endblock %}

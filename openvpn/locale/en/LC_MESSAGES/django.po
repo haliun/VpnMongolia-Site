@@ -1,0 +1,1045 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-26 00:37+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\openvpn\templates\base.html:14
+#, python-format
+msgid ""
+"100%% Free OpenVPN service. No limit. No payment. Fast Speed. Security.  We "
+"have many servers from countries. "
+msgstr ""
+
+#: .\openvpn\templates\base.html:15
+#, python-format
+msgid ""
+"VpnMongolia - 100%% Free OpenVPN service. No limit. No payment. Fast Speed. "
+"Security. Anonymous. We have many servers from different countries. "
+msgstr ""
+
+#: .\openvpn\templates\base.html:76
+msgid "Выйти"
+msgstr "Sign out"
+
+#: .\openvpn\templates\base.html:78 .\openvpn\templates\invalid_login.html:39
+#: .\openvpn\templates\registration\login.html:27
+#: .\openvpn\templates\services\android.html:22
+#: .\openvpn\templates\services\iphone.html:22
+#: .\openvpn\templates\services\linux.html:20
+#: .\openvpn\templates\services\mac.html:20
+#: .\openvpn\templates\services\windows.html:20
+msgid "Войти"
+msgstr "Sign in"
+
+#: .\openvpn\templates\base.html:79 .\openvpn\templates\invalid_login.html:14
+#: .\openvpn\templates\registration\login.html:15
+#: .\openvpn\templates\registration\login.html:51
+#: .\openvpn\templates\registration\registration_form.html:12
+msgid "Регистрация"
+msgstr "Sign up"
+
+#: .\openvpn\templates\base.html:98
+msgid "Главная"
+msgstr "Home"
+
+#: .\openvpn\templates\base.html:99 .\openvpn\templates\index.html:50
+#: .\openvpn\templates\registration\registration_complete.html:50
+msgid "OpenVPN"
+msgstr ""
+
+#: .\openvpn\templates\base.html:100 .\openvpn\templates\index.html:173
+#: .\openvpn\templates\registration\registration_complete.html:173
+msgid "Серверы"
+msgstr "Servers"
+
+#: .\openvpn\templates\base.html:101 .\openvpn\templates\index.html:17
+#: .\openvpn\templates\registration\registration_complete.html:17
+msgid "Как использовать"
+msgstr "How to use"
+
+#: .\openvpn\templates\base.html:102 .\openvpn\templates\index.html:306
+#: .\openvpn\templates\registration\registration_complete.html:306
+msgid "Наша команда"
+msgstr "Our team"
+
+#: .\openvpn\templates\base.html:103
+msgid "Контакты"
+msgstr "Contacts"
+
+#: .\openvpn\templates\cont_thanks.html:6
+msgid ""
+"Успешно :)  Спасибо обратились к нам.  Мы получили ваше письмо. Ждите "
+"обратного ответа!"
+msgstr ""
+"Success :) Thank you for choosing our service. We accepted you request. "
+"Please wait when your tea will feedback!"
+
+#: .\openvpn\templates\contact-us.html:11 .\openvpn\templates\index.html:363
+#: .\openvpn\templates\registration\registration_complete.html:363
+msgid "Мы будем связываться с вами"
+msgstr "We will feedback you as soon as possible"
+
+#: .\openvpn\templates\contact-us.html:17 .\openvpn\templates\index.html:369
+#: .\openvpn\templates\registration\registration_complete.html:369
+msgid "ФИО"
+msgstr "Name"
+
+#: .\openvpn\templates\contact-us.html:23
+msgid "Как помочь вам?"
+msgstr "How can we help?"
+
+#: .\openvpn\templates\contact-us.html:29
+msgid "Сюда напишите текст"
+msgstr ""
+
+#: .\openvpn\templates\contact-us.html:34 .\openvpn\templates\index.html:386
+#: .\openvpn\templates\registration\registration_complete.html:386
+msgid "Отправлять"
+msgstr "Send"
+
+#: .\openvpn\templates\demo\android.html:8
+#: .\openvpn\templates\demo\apple.html:9
+#: .\openvpn\templates\demo\iphone.html:8
+#: .\openvpn\templates\demo\linux.html:9 .\openvpn\templates\demo\mac.html:8
+#: .\openvpn\templates\demo\windows.html:9
+msgid "Руководство использования"
+msgstr "Documentation"
+
+#: .\openvpn\templates\demo\android.html:10
+#: .\openvpn\templates\demo\iphone.html:10
+#: .\openvpn\templates\demo\linux.html:11 .\openvpn\templates\demo\mac.html:10
+#: .\openvpn\templates\demo\windows.html:11
+msgid "Пошаговая инструкция с картинками"
+msgstr "Step by step tutorial"
+
+#: .\openvpn\templates\demo\android.html:15
+msgid ""
+"1. Первое, что вам нужно сделать, это скачать на свой телефон приложение "
+"OpenVPN (взять его можно на "
+msgstr ""
+"1. First of all, you need to install OpenVPN application on your smart "
+"phone. (here you can download from "
+
+#: .\openvpn\templates\demo\android.html:20
+msgid ""
+"2. После успешного скачивания вы должны увидеть такой значок на экране "
+"телефона."
+msgstr "2. After installation you will see this icon on your screen."
+
+#: .\openvpn\templates\demo\android.html:22
+msgid "3. Когда откроется приложение, как показано из меню заходим 'import'  "
+msgstr ""
+"3. When application open, you need to choose option 'import' from the menu."
+
+#: .\openvpn\templates\demo\android.html:24
+msgid ""
+"4. Потом когда откроется эта страница, должны ввести на полях ip address "
+"сервера с номером порта 943, логин и пароль, которые мы вам прислали по "
+"почте. (получить их можно"
+msgstr ""
+"4. Here you need to enter our ip-address of server with number of port 943, "
+"username and password, which we sent you through email. ( you can get  "
+
+#: .\openvpn\templates\demo\android.html:25
+#: .\openvpn\templates\demo\android.html:27
+#: .\openvpn\templates\demo\iphone.html:21
+#: .\openvpn\templates\demo\iphone.html:27
+#: .\openvpn\templates\demo\linux.html:21
+#: .\openvpn\templates\demo\windows.html:19
+#: .\openvpn\templates\demo\windows.html:21
+msgid "здесь"
+msgstr "here again."
+
+#: .\openvpn\templates\demo\android.html:28
+msgid ""
+". И поставим плажок 'Import autologin profile' и нажать кнопку 'Import "
+"profile' "
+msgstr " Check 'Import autologin profile' and press button 'Import'"
+
+#: .\openvpn\templates\demo\android.html:30
+msgid ""
+"5. На этой странице разришаем вход в профиль без сертификата  нажимая "
+"'Accept'."
+msgstr ""
+"5. Here you need to accept connection to the profile on our server, so press "
+"button 'Accept'."
+
+#: .\openvpn\templates\demo\android.html:32
+msgid ""
+"6. Потом мы приходим профиль и пишем свой пароль, поставим флажик 'Save' как "
+"показано на картинке, чтобы сохранить свой профиль на приложение. И дальше "
+"соеденяемся с сервером нажимая кнопку 'Connect'."
+msgstr ""
+"6. After this, to connect to your profile, you need to enter again your "
+"password and check 'Save' to save profile on your phone. And press button "
+"'Connect' to connect to the our server."
+
+#: .\openvpn\templates\demo\android.html:34
+msgid ""
+"7. Потом разрешаем автоматичеки соединение, надо поставить флажок 'I trust "
+"this application' и  нажать  на 'OK'."
+msgstr ""
+"7. To accept auto connection you need to check 'I trust this application and "
+"press button 'OK'."
+
+#: .\openvpn\templates\demo\android.html:36
+msgid ""
+"8. Если все успешно прошло, то вы должны увидеть эту страницу и значок "
+"успешного соединения 'openvpn'. Спасибо, вы сейчас сможете пользоваться VPN."
+msgstr ""
+"8. If everything is ok, you will see this page and icon of successful "
+"connection on you top of the screen. Thank you, now you can use VPN whenever "
+"and wherever you want."
+
+#: .\openvpn\templates\demo\apple.html:11
+msgid "Выберайте продукт, который вам нужен IPhone&MAC"
+msgstr "Choose your product, which you need IPhone or MAC"
+
+#: .\openvpn\templates\demo\iphone.html:15
+msgid ""
+"1. Первое, что Вам нужно сделать, это скачать на свой IPhone приложение "
+"OpenVPN (взять ее можно на"
+msgstr ""
+"1. First of all, you need to install OpenVPN application on your smart "
+"phone. (You can download application here  "
+
+#: .\openvpn\templates\demo\iphone.html:19
+msgid ""
+"2. После успешного скачивания вы должны видеть такой значок на экране "
+"телефона."
+msgstr "2. After installation you will see this icon on your screen."
+
+#: .\openvpn\templates\demo\iphone.html:21
+msgid ""
+"3. Когда откроется приложение, на поле как показано вводим адрес нашего "
+"сервера. Можете узнать адрес пройдя по ссылке  "
+msgstr ""
+"3. When application open, you need to enter our server IP-address with port "
+"number 943 and enter button return from the keyboard. (You can get IP-"
+"address with username and password through email "
+
+#: .\openvpn\templates\demo\iphone.html:23
+#: .\openvpn\templates\demo\iphone.html:29
+#: .\openvpn\templates\demo\linux.html:23
+msgid "здесь "
+msgstr "here again"
+
+#: .\openvpn\templates\demo\iphone.html:26
+msgid ""
+"4. Потом когда откроется эта страница, должны ввести на полях username и "
+"password написать логин и пароль, которые мы вам давали с расширением .txt "
+"после автиризации (взять ее можно"
+msgstr ""
+"4. Here you need to enter  username and password, which we sent you through "
+"email. (You can get  "
+
+#: .\openvpn\templates\demo\iphone.html:30
+#: .\openvpn\templates\demo\windows.html:23
+msgid "И выбрать 'connect' и нажать 'go'."
+msgstr " Choose 'connect' and press button 'go'."
+
+#: .\openvpn\templates\demo\iphone.html:32
+msgid ""
+"5. На этой странице скачиваем профиль пользователя нажимая 'Yourself(user-"
+"locked profile)' и потом откроем  client.ovpn файл."
+msgstr ""
+"5. In this page  to download profile, you need to press 'Yourself(user-"
+"locked profile)' and open client.ovpn file in 'OpenVPN'."
+
+#: .\openvpn\templates\demo\iphone.html:35
+msgid ""
+"6. Потом мы автоматически приходим в приложение обратно и надо нажать на "
+"значок плюс как показано на картинке, чтобы добавить свой профиль на "
+"приложении."
+msgstr ""
+"6. When application opens, enter button with symbol '+' to add your profile."
+
+#: .\openvpn\templates\demo\iphone.html:37
+msgid ""
+"7. Опять вводим логин и пароль, которыие скачали на шаге 4 и дальше на "
+"включаем автоматичеки сохранение 'Save'"
+msgstr ""
+"7. After this, to connect to your profile, you need to enter again your "
+"password and check 'Save' to save profile on your phone. And press button "
+"'Connect' to connect to the our server"
+
+#: .\openvpn\templates\demo\iphone.html:39
+msgid ""
+"8. Чтобы соедениться на сервер включаем 'Connected' и потом разрешаем "
+"автоматичеки соединение нажимая на 'Yes'."
+msgstr ""
+"8. To connect you need to check 'Connected' and press 'Yes' to allow "
+"connection to VPN. "
+
+#: .\openvpn\templates\demo\iphone.html:42
+msgid ""
+"9. Если все успешно прошло, то вы должны увидеть значок успешного соединения "
+"'vpn'."
+msgstr ""
+"9. If connection is successful, you will see this icon 'VPN' on the top of "
+"screen."
+
+#: .\openvpn\templates\demo\linux.html:16
+msgid ""
+"1. Первое, что вам нужно сделать, это скачать на свой компьютер установщик "
+"программы OpenVPN. Для этого надо зайти в Terminal и если ваш ОС Debian/"
+"Ubuntu, то  как показано на ск.шоте. вводим команду sudo apt-get install "
+"openvpn. А если ваш ОС Fedora/Redhat/Centos, вводим вводим команду sudo yum "
+"install openvpn. Во время установки, когда будест спросить ответим 'yes' и "
+"видим что у нас установлен Openvpn."
+msgstr "1. In first, you need to install Openvpn on your pc. For this, open 'Terminal' on your pc, if you have OS Debian/Ubuntu, enter the command 'apt-get install openvpn' or if you have OS Centos/RedHat/Fedora, so you need to enter command 'yum install openvpn'. When it is installing, you will be answered the question, answer 'Yes' here. "
+
+#: .\openvpn\templates\demo\linux.html:20
+msgid ""
+"2. После этого откроем браузер вводим наш адрес сервера с номером порта 943. "
+"(Вы сможете получить адрес сервера, логин и пароль по почте "
+msgstr ""
+"2. After the installation,  you need open your browser and  enter our ip-address of server with number of port 943. (You can get IP-address of our server, your login and password using your email address  "
+
+#: .\openvpn\templates\demo\linux.html:24
+msgid " На этой странице выбираем 'I understand this risks'"
+msgstr " Here choose 'I understand this risks'."
+
+#: .\openvpn\templates\demo\linux.html:26
+msgid ""
+"3. Дальше выбираем 'Add exception' и также 'Confirm security exception'."
+msgstr "3. Next step, click 'Add exception' and also 'Confirm security exception'"
+
+#: .\openvpn\templates\demo\linux.html:29
+msgid ""
+"4. На странице Openvpn вводим логин и пароль, которые мы прислали вам по "
+"почте, выбираем Login и нажмем Go."
+msgstr ""
+"4. Here on this page of Openvpn, enter your login and password, which we sent to your email address. And choose 'Login' and also click 'Go' ."
+
+#: .\openvpn\templates\demo\linux.html:31
+msgid ""
+"5. После успешного входа выбираем пункт 'Yourself (user-locked profile) и "
+"загружим его на свой компьютер."
+msgstr "5. After successful login choose 'Yourself (user-locked profile)' to download profile."
+
+#: .\openvpn\templates\demo\linux.html:35
+msgid ""
+"6. Обратно приходим в терминал и зайдем в папку Downloads (загрузки) и видим "
+"что тут наш файл client.ovpn находися. Дальше вводим команду 'sudo openvpn --"
+"config client.ovpn', чтобы конфигурировать наш профиль пользователя."
+msgstr "6. Again open the 'Terminal' and go to folder 'Downloads'. We see our downloaded file 'client.ovpn'. If exists this file in the folder, enter the command 'sudo openvpn --"
+"config client.ovpn', to configure our user profile to openvpn."
+
+#: .\openvpn\templates\demo\linux.html:37
+msgid "7. Во время конфигурации вводим снова свой логин и пароль."
+msgstr "7. During configuration process, enter your login and password here."
+
+#: .\openvpn\templates\demo\linux.html:39
+msgid ""
+"8. Если все правильно в конце команды все должно выглядить как показано на "
+"картинке."
+msgstr "8. If you did everything correctly, at the end of configuration process you will see this log. "
+
+#: .\openvpn\templates\demo\linux.html:41
+msgid ""
+"9. Если вы хотите проверить деиствительно ли поменялись ваш адрес можно "
+"проверить из интернета зайти в какой нибудь сайт, который проверяет IP-"
+"address и так увидем только наш адрес сервера. Поздравляю вы сейчас сможете "
+"пользоваться VPN сервисом! "
+msgstr "9. If you want to know, that if you successfully connected or not, you can also search from the internet some websites, which can check your ip-address and you will see only our ip-address of server.  It means everything is OK. Congratulations! Now you can use VPN service for your Internet Freedom! "
+
+#: .\openvpn\templates\demo\mac.html:15
+msgid "Скоро будет.."
+msgstr "Coming soon..."
+
+#: .\openvpn\templates\demo\windows.html:16
+msgid ""
+"1. Первое, что вам нужно сделать, это скачать на свой компьютер установщик "
+"программы OpenVPN (взять ее можно на"
+msgstr ""
+"1. First of all, you need to download installation program OpenVPN on your "
+"computer.  (Here you can download at "
+
+#: .\openvpn\templates\demo\windows.html:17
+msgid "официальном сайте"
+msgstr "official site"
+
+#: .\openvpn\templates\demo\windows.html:17
+msgid ""
+"Для этого надо зайти на эту страницу как показано на ск.шоте. (Не забудьте "
+"нажать Допольнительные и дальше прийти на сайт). И на полях username и "
+"password написать логин и пароль, которые мы вам вам прислали по почте "
+"(взять ее можно"
+msgstr ""
+". For this, you need to go to this page ( like a screen shot). (Attention! "
+"Don't forget to connect, press Advanced and Go to site). And enter your "
+"username and password, which we sent you to your email. You can download "
+
+#: .\openvpn\templates\demo\windows.html:27
+msgid ""
+"2. После этого как показанно на картинке надо нажать 'click here to "
+"continue' чтобы загрузить на своем  компьютере  установщик. "
+msgstr ""
+"2. In second, press 'click here to continue' to download installation "
+"program to your computer."
+
+#: .\openvpn\templates\demo\windows.html:29
+msgid "3. Чтобы сохранить  установщик нажимай 'Save File'"
+msgstr "3. To save you need to press button 'Save File'"
+
+#: .\openvpn\templates\demo\windows.html:31
+msgid "4. После загрузки откроем загруженный  установщик и его запустим."
+msgstr "4. After downloading process, open installation file and run."
+
+#: .\openvpn\templates\demo\windows.html:33
+msgid ""
+"5. После автоматического установления вы должны видеть на экране и на панеле "
+"управления эти значки."
+msgstr ""
+"5. After successful  installation you will see this icons on your desktop "
+"screen and toolbar.  "
+
+#: .\openvpn\templates\demo\windows.html:36
+msgid ""
+"6. Любой один  из двух вариантов на значок нажимайте и должно появится это "
+"окно. На этом окне введите логин и пароль из первого пункта. И кликаем на "
+"'Connect'."
+msgstr ""
+"6. To run press one of these icons. Enter your username and password, which "
+"you get here at first step. Press button 'Connect'."
+
+#: .\openvpn\templates\demo\windows.html:38
+msgid ""
+"7. Вы должны увидеть на панеле управления сообшения "
+"'connecting' (соеденяется)."
+msgstr "7. You will see message 'connecting' at toolbar."
+
+#: .\openvpn\templates\demo\windows.html:40
+msgid ""
+"8. У вас будут спрашивать как на картинке показано и ответьте 'Yes' (да)."
+msgstr "8. When ask you like this, answer 'Yes.'"
+
+#: .\openvpn\templates\demo\windows.html:42
+msgid ""
+"9. Если все успешно прошло, то вы должны увидеть сообшения успешного "
+"соединения 'connected'"
+msgstr "9. If connection is successful, you will see this message 'connected'"
+
+#: .\openvpn\templates\email_pass.html:8
+msgid "Получение логин и пароля для входа Openvpn Access Server"
+msgstr "Get username and password for Openvpn Access Server"
+
+#: .\openvpn\templates\email_pass.html:13
+msgid ""
+"Если вы хотите получить доступ, т.е. логин и пароль к Openvpn access server, "
+"нажмите"
+msgstr ""
+"If you want to get access ( username and password for Openvpn Accrss Server), "
+"please enter"
+
+#: .\openvpn\templates\email_pass.html:13
+msgid "сюда."
+msgstr "here."
+
+#: .\openvpn\templates\email_pass.html:14
+msgid ""
+"Мы отправим данные к вашему зарегисрированному email. Проверяйте почту "
+"пожалуйста!"
+msgstr ""
+"We will send you username and password to your email. Please check your "
+"email!"
+
+#: .\openvpn\templates\index.html:15
+#: .\openvpn\templates\registration\registration_complete.html:15
+#, python-format
+msgid "100%% Free VPN."
+msgstr "100%% Free VPN."
+
+#: .\openvpn\templates\index.html:17 .\openvpn\templates\index.html:31
+#: .\openvpn\templates\registration\registration_complete.html:17
+#: .\openvpn\templates\registration\registration_complete.html:31
+msgid "Подробнее"
+msgstr "About service"
+
+#: .\openvpn\templates\index.html:29
+#: .\openvpn\templates\registration\registration_complete.html:29
+msgid "No limit. No payment."
+msgstr "No limit. No payment."
+
+#: .\openvpn\templates\index.html:49
+#: .\openvpn\templates\registration\registration_complete.html:49
+msgid "Сервисы"
+msgstr "Services"
+
+#: .\openvpn\templates\index.html:51
+#: .\openvpn\templates\registration\registration_complete.html:51
+msgid "Мы предлогаем услуги для разных платформов."
+msgstr "We have services for all operation systems."
+
+#: .\openvpn\templates\index.html:75
+#: .\openvpn\templates\registration\registration_complete.html:75
+msgid "Для Windows компьютеров"
+msgstr "For Windows PC"
+
+#: .\openvpn\templates\index.html:77
+#: .\openvpn\templates\registration\registration_complete.html:77
+msgid "Здесь можно скачать установщик для операционной системы Windows."
+msgstr "Here you can download installation file for operation system Windows."
+
+#: .\openvpn\templates\index.html:95
+#: .\openvpn\templates\registration\registration_complete.html:95
+msgid "Для IPhone, Ipad"
+msgstr "For IPhone, Ipad"
+
+#: .\openvpn\templates\index.html:97
+#: .\openvpn\templates\registration\registration_complete.html:97
+msgid "Здесь можно скачать установщик для операционной системы Iphone и Ipad."
+msgstr "Here you can download installation file for iOS of IPhone and Ipad."
+
+#: .\openvpn\templates\index.html:110
+#: .\openvpn\templates\registration\registration_complete.html:110
+msgid "Для MAC компьютеров"
+msgstr "For MAC PC"
+
+#: .\openvpn\templates\index.html:112
+#: .\openvpn\templates\registration\registration_complete.html:112
+msgid "Здесь можно скачать установщик для операционной системы MAC."
+msgstr "Here you can download installation file for OS MAC."
+
+#: .\openvpn\templates\index.html:132
+#: .\openvpn\templates\registration\registration_complete.html:132
+msgid "Для телефонов Android "
+msgstr "For Android phones"
+
+#: .\openvpn\templates\index.html:134
+#: .\openvpn\templates\registration\registration_complete.html:134
+msgid "Здесь можно скачать установщик для операционной системы Android."
+msgstr "Here you can download installation file for Android OS."
+
+#: .\openvpn\templates\index.html:154
+#: .\openvpn\templates\registration\registration_complete.html:154
+msgid "Для компьютеров Linux"
+msgstr "For Linux PC"
+
+#: .\openvpn\templates\index.html:156
+#: .\openvpn\templates\registration\registration_complete.html:156
+msgid "Здесь можно скачать установщик для операционной системы Linux."
+msgstr "Here you can download installation file for Linux OS."
+
+#: .\openvpn\templates\index.html:175
+#: .\openvpn\templates\registration\registration_complete.html:175
+msgid ""
+"У нас есть возможность выбрать серверы разных стран, разных континентов."
+msgstr "We have servers from different continents."
+
+#: .\openvpn\templates\index.html:180
+#: .\openvpn\templates\registration\registration_complete.html:180
+msgid "Азия"
+msgstr "Asia"
+
+#: .\openvpn\templates\index.html:182
+#: .\openvpn\templates\registration\registration_complete.html:182
+msgid "Америка"
+msgstr "America"
+
+#: .\openvpn\templates\index.html:184
+#: .\openvpn\templates\registration\registration_complete.html:184
+msgid "Европа"
+msgstr "Europe"
+
+#: .\openvpn\templates\index.html:198
+#: .\openvpn\templates\registration\registration_complete.html:198
+msgid "Япония"
+msgstr "Japan"
+
+#: .\openvpn\templates\index.html:199
+#: .\openvpn\templates\registration\registration_complete.html:199
+msgid ""
+"\n"
+"                          <p>Server name: 153.127.249.210\n"
+"\t\t\t\t\t\t  <br> Node: v4615.vir.kagoya.net\n"
+"\t\t\t\t\t\t  <br> CPU: Intel(R) Xeon(R) E5640  @ 2.67GHz 3cores\n"
+"\t\t\t\t\t\t  <br>Guaranteed memory: 1GB\n"
+"\t\t\t\t\t\t  <br>Maximum memory: 2GB\n"
+"\t\t\t\t\t\t  <br>HDD: 200GB</p> "
+msgstr ""
+
+#: .\openvpn\templates\index.html:227
+#: .\openvpn\templates\registration\registration_complete.html:227
+msgid "США"
+msgstr "USA"
+
+#: .\openvpn\templates\index.html:229 .\openvpn\templates\index.html:249
+#: .\openvpn\templates\registration\registration_complete.html:229
+#: .\openvpn\templates\registration\registration_complete.html:249
+msgid "Скоро..."
+msgstr "Soon..."
+
+#: .\openvpn\templates\index.html:247
+#: .\openvpn\templates\registration\registration_complete.html:247
+msgid "Швеция"
+msgstr "Sweden"
+
+#: .\openvpn\templates\index.html:266
+#: .\openvpn\templates\registration\registration_complete.html:266
+msgid "Руководство использования "
+msgstr "Documentation"
+
+#: .\openvpn\templates\index.html:315
+#: .\openvpn\templates\registration\registration_complete.html:315
+msgid "Сысолетин Е. Г."
+msgstr "Sysoleton E.G."
+
+#: .\openvpn\templates\index.html:315
+#: .\openvpn\templates\registration\registration_complete.html:315
+msgid "Руководитель"
+msgstr "Mentor"
+
+#: .\openvpn\templates\index.html:316
+#: .\openvpn\templates\registration\registration_complete.html:316
+msgid "Старший преподаватель"
+msgstr "Senior teacher"
+
+#: .\openvpn\templates\index.html:317 .\openvpn\templates\index.html:345
+#: .\openvpn\templates\registration\registration_complete.html:317
+#: .\openvpn\templates\registration\registration_complete.html:345
+msgid "Кафедра информационных технологий "
+msgstr "Departament of Information Technology"
+
+#: .\openvpn\templates\index.html:318 .\openvpn\templates\index.html:346
+#: .\openvpn\templates\registration\registration_complete.html:318
+#: .\openvpn\templates\registration\registration_complete.html:346
+msgid "Уральский Федеральный Университет,"
+msgstr "Ural Federal University,"
+
+#: .\openvpn\templates\index.html:318
+#: .\openvpn\templates\registration\registration_complete.html:318
+msgid " г. Екатеринбург, Россия. "
+msgstr "Yekatrinburg City, Russia."
+
+#: .\openvpn\templates\index.html:330
+#: .\openvpn\templates\registration\registration_complete.html:330
+msgid "Цог Нандинбаатар"
+msgstr "Nandinabaatar Tsog"
+
+#: .\openvpn\templates\index.html:330
+#: .\openvpn\templates\registration\registration_complete.html:330
+msgid "Ментор"
+msgstr "Mentor"
+
+#: .\openvpn\templates\index.html:331
+#: .\openvpn\templates\registration\registration_complete.html:331
+#, fuzzy
+#| msgid "Старший преподаватель"
+msgid "Преподаватель"
+msgstr "Senior teacher"
+
+#: .\openvpn\templates\index.html:331
+#: .\openvpn\templates\registration\registration_complete.html:331
+#, fuzzy
+#| msgid "Швеция"
+msgid "Швеция."
+msgstr "Sweden"
+
+#: .\openvpn\templates\index.html:343
+#: .\openvpn\templates\registration\registration_complete.html:343
+msgid "Довчинням Халиун"
+msgstr "Khaliun Dovchinnyam"
+
+#: .\openvpn\templates\index.html:343
+#: .\openvpn\templates\registration\registration_complete.html:343
+msgid "Веб программист"
+msgstr "Web-Developer"
+
+#: .\openvpn\templates\index.html:344
+#: .\openvpn\templates\registration\registration_complete.html:344
+msgid "Студент, программист "
+msgstr "Senior Student, programmer"
+
+#: .\openvpn\templates\index.html:346
+#: .\openvpn\templates\registration\registration_complete.html:346
+msgid "г. Екатеринбург, Россия."
+msgstr "Yekatrinburg City, Russia."
+
+#: .\openvpn\templates\index.html:362
+#: .\openvpn\templates\registration\registration_complete.html:362
+msgid "Contact us"
+msgstr "Contact us"
+
+#: .\openvpn\templates\index.html:375
+#: .\openvpn\templates\registration\registration_complete.html:375
+msgid "Вопрос"
+msgstr "Subject"
+
+#: .\openvpn\templates\index.html:381
+#: .\openvpn\templates\registration\registration_complete.html:381
+msgid "Текст"
+msgstr "Question"
+
+#: .\openvpn\templates\invalid_login.html:11
+#: .\openvpn\templates\registration\login.html:12
+#: .\openvpn\templates\registration\registration_form.html:16
+msgid "Логин"
+msgstr "Username"
+
+#: .\openvpn\templates\invalid_login.html:24
+msgid "Вы ввели неправильный логин или пароль. Попробуйте еще раз!!!"
+msgstr ""
+"Your entered username or password is not correct. Please again enter!!!"
+
+#: .\openvpn\templates\invalid_login.html:30
+#: .\openvpn\templates\registration\login.html:43
+msgid "Пароль"
+msgstr "Password"
+
+#: .\openvpn\templates\invalid_login.html:34
+msgid " Запомни меня "
+msgstr "Remember me"
+
+#: .\openvpn\templates\invalid_login.html:47
+msgid "Забыли пароль?"
+msgstr "Forgot password?"
+
+#: .\openvpn\templates\openvpn.html:8
+msgid "О сервисе, О нас "
+msgstr "About us, About service"
+
+#: .\openvpn\templates\openvpn.html:10
+msgid ""
+"OpenVPN — свободная реализация технологии виртуальной частной сети (VPN) с "
+"открытым исходным кодом для создания зашифрованных каналов типа точка-точка "
+"или сервер-клиенты между компьютерами. Она позволяет устанавливать "
+"соединения между компьютерами, находящимися за NAT и сетевым экраном, без "
+"необходимости изменения их настроек. OpenVPN была создана Джеймсом Йонаном "
+"(James Yonan) и распространяется под лицензией GNU GPL."
+msgstr ""
+"OpenVPN is an open-source software application that implements virtual "
+"private network (VPN) techniques for creating secure point-to-point or site-"
+"to-site connections in routed or bridged configurations and remote access "
+"facilities. It uses a custom security protocol that utilizes SSL/TLS for key "
+"exchange. It is capable of traversing network address translators (NATs) and "
+"firewalls. It was written by James Yonan and is published under the GNU "
+"General Public License (GPL)."
+
+#: .\openvpn\templates\openvpn.html:12
+msgid ""
+"Ни для кого не секрет, что все ваши действия в интернете давно "
+"отслеживаются, фильтруются и анализируются. Это может быть, как обычный "
+"интернет провайдер, который обязан хранить историю всей вашей онлайн жизни, "
+"так и государство которое может ограничивать свободу слова блокируя "
+"социальный сети и сервисы обмена информацией такие как: Twitter, Instagram, "
+"Skype и тд."
+msgstr ""
+"It's no secret that all your actions on the Internet are tracked, filtered "
+"and analyzed. It can be like a normal ISP who is obliged to keep actions of "
+"all of your online life, and the state that may restrict freedom of "
+"expression by blocking the social networking and information-sharing "
+"services such as: Twitter, Instagram, Skype and so on."
+
+#: .\openvpn\templates\openvpn.html:14
+msgid "Что может вам предложить VpnMongoliaService?"
+msgstr "What can VpnMongoliaService offer you"
+
+#: .\openvpn\templates\openvpn.html:16
+msgid ""
+"Мы создавали этот VPN сервис в первую очередь для тех, кто заботится о своей "
+"анонимности, дорожит безопасность, при этом не хочет,чтобы его свободу в "
+"сети ограничивали."
+msgstr ""
+"We created this VPN service in the first place for those who care about "
+"their anonymity, security, who does not want to limit his freedom in the "
+"network."
+
+#: .\openvpn\templates\openvpn.html:16
+msgid ""
+"В наше время хакеров, цензуры, в то время когда любой может вас "
+"идентифицировать или анализировать вашу интернет деятельность, онлайн "
+"конфиденциальность еще никогда не была так важна."
+msgstr ""
+"Nowadays,it is time of  hackers, anyone can identify you and analyze your "
+"web activity, online privacy has never been so important."
+
+#: .\openvpn\templates\openvpn.html:17
+msgid "Конфиденциальность"
+msgstr "Confidentiality"
+
+#: .\openvpn\templates\openvpn.html:18
+msgid ""
+"Каждый из нас, кто активно использует все средства современного интернета, "
+"ежедневно подвергаются посягательству на конфиденциальность. Нет такого "
+"сайта или ресурса который бы не сохранял ваш IP адрес, который "
+"приравнивается к номеру паспорта, каким образом эти данные могут быть "
+"использованы остается только догадываться. Наш VPN сервис способен скрыть IP "
+"адрес от чужих глаз заменив его одним из множества IP адресов нашего сервиса "
+"по всему миру! "
+msgstr ""
+"Each of us, who is actively using all the tools of the modern internet, "
+"daily exposed to encroachment on privacy. No such site or resource that does "
+"not retain your IP address, which is equal to the number of the passport, "
+"how these data can still only be used to guess. Our VPN service is able to "
+"hide the IP address from prying eyes replacing it with one of the plurality "
+"of our service IP addresses around the world!"
+
+#: .\openvpn\templates\openvpn.html:19
+msgid "Безопасность"
+msgstr "Security"
+
+#: .\openvpn\templates\openvpn.html:20
+msgid ""
+"Ведя онлайн бизнес, путешествуя или пользуясь публичными Wi-FI мы постоянно "
+"подвергаемся атакам на наш интернет трафик, результатом этой атаки может "
+"служить как утечка ценной информации (переписка, разговоры, передаваемые "
+"файлы) так и ее потеря. Благодаря стойкому алгоритму шифрации трафика мы "
+"можем гарантировать, что передаваемые вами данные не будут записаны или "
+"перехвачены где бы вы не находились, в аэропорту, отеле, интернет кафе или "
+"при использовании публичной точки доступа Wi-Fi."
+msgstr ""
+"Conducting online business, traveling or using public Wi-FI, we are "
+"constantly exposed to attacks on our internet traffic, the result of this "
+"attack can serve as a leak of valuable information (correspondence, "
+"conversations, file transfers) and its loss. Due to strong algorithms for "
+"encryption of traffic we can ensure that the data you transmit will not be "
+"recorded or intercepted wherever you are, at the airport, hotel, Internet "
+"cafe or using a public access point Wi-Fi. "
+
+#: .\openvpn\templates\openvpn.html:21
+msgid "Свобода"
+msgstr "Freedom"
+
+#: .\openvpn\templates\openvpn.html:22
+msgid ""
+"Цензура в интернете приобретает все большое распространение, начиная с "
+"локальных ограничений на работе и заканчивая государственными фаерволами, "
+"которые решают куда вам можно заходить, какими сервисами пользоваться и "
+"какое видео смотреть. Используя VPN сервис вы сможете посещать любые сайты, "
+"в том числе которые недоступны для вашей страны: Google, YouTube, Hulu, BBC, "
+"NOW.ru"
+msgstr ""
+"Censorship of the Internet is becoming widespread, ranging from local "
+"restrictions on the work of the government and ending with firewalls, which "
+"decide where you can go, what services to use and how to watch a video. "
+"Using a VPN service you can visit any sites, including those that are not "
+"available for your country: Google, YouTube, Hulu, BBC, Fasebook, Twitter..."
+
+#: .\openvpn\templates\openvpn.html:23
+msgid "Удобство"
+msgstr "Convenience"
+
+#: .\openvpn\templates\openvpn.html:24
+msgid ""
+"Для использования нашего сервиса не нужно иметь специальных технических "
+"знаний, установка и настройка соединения займет у вас считанные минуты. Мы "
+"предлагаем доступ по протоколам OpenVPN. Техническая поддержка всегда готова "
+"ответить на все ваши вопросы по электронной почте."
+msgstr ""
+"To use our service do not need to have technical knowledge, installation and "
+"connection setup will take you a few minutes. We offer access protocols, "
+"OpenVPN. Technical support is always ready to answer all your questions by e-"
+"mail. "
+
+#: .\openvpn\templates\registration\activate.html:6
+msgid "Account activation failed"
+msgstr ""
+
+#: .\openvpn\templates\registration\activation_complete.html:5
+msgid "Your account is now activated."
+msgstr ""
+
+#: .\openvpn\templates\registration\activation_email.txt:2
+msgid "Activate account at"
+msgstr ""
+
+#: .\openvpn\templates\registration\activation_email.txt:6
+#, python-format
+msgid "Link is valid for %(expiration_days)s days."
+msgstr ""
+
+#: .\openvpn\templates\registration\activation_email_subject.txt:1
+msgid "Account activation on"
+msgstr ""
+
+#: .\openvpn\templates\registration\login.html:31
+msgid "Forgot password"
+msgstr ""
+
+#: .\openvpn\templates\registration\login.html:31
+msgid "Reset it"
+msgstr ""
+
+#: .\openvpn\templates\registration\login.html:37
+msgid "Имя пользователя"
+msgstr "Username"
+
+#: .\openvpn\templates\registration\login.html:46
+msgid "Повторите пароль"
+msgstr "Repeat password"
+
+#: .\openvpn\templates\registration\logout.html:5
+msgid "You were successfully logged out."
+msgstr ""
+
+#: .\openvpn\templates\registration\password_change_done.html:5
+msgid "Password changed"
+msgstr ""
+
+#: .\openvpn\templates\registration\password_change_form.html:9
+#: .\openvpn\templates\registration\password_reset_confirm.html:12
+#: .\openvpn\templates\registration\password_reset_form.html:9
+msgid "Submit"
+msgstr ""
+
+#: .\openvpn\templates\registration\password_reset_complete.html:6
+msgid "Password reset successfully"
+msgstr ""
+
+#: .\openvpn\templates\registration\password_reset_complete.html:8
+msgid "Log in"
+msgstr ""
+
+#: .\openvpn\templates\registration\password_reset_confirm.html:17
+msgid "Password reset failed"
+msgstr ""
+
+#: .\openvpn\templates\registration\password_reset_done.html:5
+msgid "Email with password reset instructions has been sent."
+msgstr ""
+
+#: .\openvpn\templates\registration\password_reset_email.html:2
+msgid "Reset password at VpnMongolia Service"
+msgstr ""
+
+#: .\openvpn\templates\registration\registration_closed.html:5
+msgid "Registration is currently closed."
+msgstr ""
+
+#: .\openvpn\templates\registration\registration_form.html:32
+msgid "Регистрироваться"
+msgstr "Sign up"
+
+#: .\openvpn\templates\services\android.html:8
+#: .\openvpn\templates\services\iphone.html:8
+#: .\openvpn\templates\services\linux.html:8
+#: .\openvpn\templates\services\mac.html:8
+#: .\openvpn\templates\services\windows.html:8
+msgid "Установить Openvpn"
+msgstr "Install Openvpn"
+
+#: .\openvpn\templates\services\android.html:16
+#: .\openvpn\templates\services\iphone.html:15
+#: .\openvpn\templates\services\linux.html:15
+#: .\openvpn\templates\services\mac.html:15
+#: .\openvpn\templates\services\windows.html:15
+msgid "Внимание!"
+msgstr "Attention!"
+
+#: .\openvpn\templates\services\android.html:17
+msgid ""
+" Чтобы скачать установщик для операционной системы Android на смартфоне, вам "
+"надо зарегистрироваться!"
+msgstr ""
+"To download installation application for Android, you need to login to site!"
+
+#: .\openvpn\templates\services\android.html:20
+#: .\openvpn\templates\services\iphone.html:20
+#: .\openvpn\templates\services\linux.html:18
+#: .\openvpn\templates\services\mac.html:18
+#: .\openvpn\templates\services\windows.html:18
+msgid "Скачать"
+msgstr "Download"
+
+#: .\openvpn\templates\services\iphone.html:16
+msgid ""
+" Чтобы скачать установщик для операционной системы iOS на смартфоне, вам "
+"надо зарегистрироваться!"
+msgstr ""
+"To download installation application for iOS, you need to login to site!"
+
+#: .\openvpn\templates\services\linux.html:16
+msgid ""
+" 1. Чтобы скачать установщик для операционной системы Linux, вам надо "
+"зарегистрироваться!"
+msgstr ""
+"1. To download installation application for Linux OS, you need to login to "
+"site!"
+
+#: .\openvpn\templates\services\linux.html:23
+msgid ""
+"2. Если у вас установлено Openvpn GUI, тогда скачивайте просто профиль ."
+"ovpn! "
+msgstr ""
+"2. If you already have program Openvpn Gui, just download profile file .ovpn!"
+
+#: .\openvpn\templates\services\mac.html:16
+msgid ""
+"1. Чтобы скачать установщик для операционной системы MAC, вам надо "
+"зарегистрироваться!"
+msgstr ""
+"1. To download installation application for MAC OS, you need to login to "
+"site!"
+
+#: .\openvpn\templates\services\mac.html:23
+#: .\openvpn\templates\services\windows.html:23
+msgid ""
+"2. Если появляется это окно, то нажмите Дополнительные и дальше Прийти на "
+"сайт. "
+msgstr "2. If you see this page, please press Advanced and then Go to site. "
+
+#: .\openvpn\templates\services\mac.html:26
+#: .\openvpn\templates\services\windows.html:27
+msgid ""
+"3. Если у вас установлено Openvpn GUI, тогда скачивайте просто профиль ."
+"ovpn! "
+msgstr ""
+"3. If you already have program Openvpn Gui, just download profile file .ovpn!"
+
+#: .\openvpn\templates\services\windows.html:16
+msgid ""
+"1. Чтобы скачать установщик для операционной системы Windows, вам надо "
+"зарегистрироваться!"
+msgstr ""
+"1. To download installation application for Windows, you need to login to "
+"site!"
+
+#: .\openvpn\templates\thanks.html:6
+msgid ""
+"Успешно :) Мы отправили  данные к вашему зарегисрированному email. "
+"Проверяйте почту пожалуйста!"
+msgstr ""
+"Success :) We sent your password and username to your email. Please check "
+"your mail!"
+
+#: .\sitevpn\settings.py:118
+msgid "Russia"
+msgstr ""
+
+#: .\sitevpn\settings.py:119
+msgid "English"
+msgstr ""
+
+#: .\sitevpn\settings.py:120
+msgid "Mongolian"
+msgstr ""
+
+#~ msgid "Запомни меня"
+#~ msgstr "Remember me"
+
+#~ msgid "Успешно зарегистрировались! Поздравляю!"
+#~ msgstr "Successful registration! Congratulations!"
+
+#~ msgid "Преподаватель Mälardalen University College, Швеция."
+#~ msgstr "Teacher of Mälardalen University College, Sweden."
+
+#~ msgid "Сысолетин, Евгений Геннадьевич "
+#~ msgstr "Sysoliten Eugene Ginadevich"
+
+#~ msgid "Регситрация"
+#~ msgstr "Register"

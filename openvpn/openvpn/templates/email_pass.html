@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+    {% load i18n %}
+<section id="demos" class="block background01 animatedParent animateOnce">
+	<div class="row">
+	 <div class="demos">
+          <div class="animated fadeIn slow">
+            <h2>{% trans "Получение логин и пароля для входа Openvpn Access Server" %} </h2>
+          </div>
+        </div>
+	</div>
+	<div class="container">
+	    <p>{%  trans "Если вы хотите получить доступ, т.е. логин и пароль к Openvpn access server, нажмите" %}<a class="btn btn-link" href="/email/sendpass-jap/" role="button">{%  trans "сюда." %}</a>
+        {%  trans "Мы отправим данные к вашему зарегисрированному email. Проверяйте почту пожалуйста!" %}</p>
+    </div>
+<br><BR><BR>
+</section>
+{% endblock %}

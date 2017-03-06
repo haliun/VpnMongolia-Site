@@ -1,0 +1,4 @@
+django-bootstrap3
+django==1.10
+django-forms-bootstrap
+django-registration-redux

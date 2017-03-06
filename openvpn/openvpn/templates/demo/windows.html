@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{%  load i18n %}
+{% block content %}
+
+<section id="demos" class="block background01 animatedParent animateOnce">
+	<div class="row">
+	 <div class="demos">
+          <div class="animated fadeIn slow">
+            <h2>{% trans "Руководство использования" %}</h2>
+            <p>Windows
+              <br>{% trans "Пошаговая инструкция с картинками" %}</p>
+          </div>
+        </div>
+	</div>
+	<div class="container">
+	<p>{% trans "1. Первое, что вам нужно сделать, это скачать на свой компьютер установщик программы OpenVPN (взять ее можно на" %} <a href="https://153.127.249.210:943/generic/openvpn-connect-2.1.3.110.msi" target="_blank">
+        {%  trans "официальном сайте"%}</a>) {% trans "Для этого надо зайти на эту страницу как показано на ск.шоте. (Не забудьте нажать Допольнительные и дальше прийти на сайт). И на полях username и password написать логин и пароль, которые мы вам вам прислали по почте (взять ее можно" %}
+        {% if user.is_authenticated %}
+            <a href="/email/">{%  trans "здесь" %} </a>
+        {% else %}
+            <a href="/accounts/login/">{%  trans "здесь" %}</a>
+        {% endif %}).
+		{% trans "И выбрать 'connect' и нажать 'go'." %}</p>
+		<img class="img-demo" src="/static/images/win01.jpg" align="center" alt="Windows">
+    <img class="img-demo" src="/static/images/private.png" align="center" alt="Windows">
+	
+	<p>{% trans "2. После этого как показанно на картинке надо нажать 'click here to continue' чтобы загрузить на своем  компьютере  установщик. " %} </p>
+		<img class="img-demo" src="/static/images/win02.jpg" align="center" alt="Windows">
+	<p>{% trans "3. Чтобы сохранить  установщик нажимай 'Save File'" %}.</p>
+		<img class="img-demo" src="/static/images/win1.jpg" align="center" alt="Windows">
+	<p>{% trans "4. После загрузки откроем загруженный  установщик и его запустим." %} </p>
+		<img class="img-demo" src="/static/images/win2.jpg" align="center" alt="Windows">
+	<p>{% trans "5. После автоматического установления вы должны видеть на экране и на панеле управления эти значки." %} </p>
+		<img class="img-demo" src="/static/images/win4.jpg" align="center" alt="Windows">
+		<img class="img-demo" src="/static/images/win4-1.jpg" align="center" alt="Windows">
+	<p>{% trans "6. Любой один  из двух вариантов на значок нажимайте и должно появится это окно. На этом окне введите логин и пароль из первого пункта. И кликаем на 'Connect'." %}</p>
+		<img class="img-demo" src="/static/images/win5.jpg" align="center" alt="Windows">
+	<p>{% trans "7. Вы должны увидеть на панеле управления сообшения 'connecting' (соеденяется)." %}</p>
+		<img class="img-demo" src="/static/images/win6.jpg" align="center" alt="Windows">
+	<p>{% trans "8. У вас будут спрашивать как на картинке показано и ответьте 'Yes' (да)." %}</p>
+		<img class="img-demo" src="/static/images/win7.jpg" align="center" alt="Windows">
+	<p>{% trans "9. Если все успешно прошло, то вы должны увидеть сообшения успешного соединения 'connected'" %}</p>
+        <img class="img-demo" src="/static/images/win08-1.png" align="center" alt="Windows">
+		<img class="img-demo" src="/static/images/win8.png" align="center" alt="Windows">
+    </div>                
+	
+</section>
+
+{% endblock %}

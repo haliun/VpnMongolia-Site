@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Django default" uuid="94c4ef0e-0f8b-409f-b3f7-308348ab2c78">
+      <user-name>root</user-name>
+      <user-password>dfdfdfd8dfcbdfcddfd9dfc2dfcbdfcb</user-password>
+      <schema-pattern>openvpn.*</schema-pattern>
+      <default-schemas>openvpn.*</default-schemas>
+    </data-source>
+  </component>
+</project>

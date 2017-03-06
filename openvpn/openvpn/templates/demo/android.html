@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block content %}
+    {%  load i18n %}
+<section id="demos" class="block background01 animatedParent animateOnce">
+	<div class="row">
+	 <div class="demos">
+          <div class="animated fadeIn slow">
+            <h2>{% trans "Руководство использования" %} </h2>
+            <p>IPhone
+              <br>{% trans "Пошаговая инструкция с картинками" %}</p>
+          </div>
+        </div>
+	</div>
+	<div class="container">
+	<p>{% trans "1. Первое, что вам нужно сделать, это скачать на свой телефон приложение OpenVPN (взять его можно на " %}<a href="http://openvpn.net/clients/index.php?client=openvpn_connect_android" target="_blank">Play Store</a>).
+		</p>
+		<img class="img-demo1" src="/static/images/android1.PNG" align="center" alt="iphone">
+    <img class="img-demo1" src="/static/images/android2.PNG" align="center" alt="iphone">
+
+	<p>{% trans "2. После успешного скачивания вы должны увидеть такой значок на экране телефона." %} </p>
+		<img class="img-demo1" src="/static/images/android2-1.PNG" align="center" alt="iphone">
+	<p>{% trans "3. Когда откроется приложение, как показано из меню заходим 'import'  " %} </p>
+		<img class="img-demo1" src="/static/images/android3.png" align="center" alt="iphone">
+	<p>{% trans "4. Потом когда откроется эта страница, должны ввести на полях ip address сервера с номером порта 943, логин и пароль, которые мы вам прислали по почте. (получить их можно" %} {% if user.is_authenticated %}
+																																			<a href="/email/">{% trans "здесь" %} </a>
+																																			{% else %}
+																																			<a href="/accounts/login/">{% trans "здесь" %} </a>
+																																			{% endif %}){%  trans ". И поставим плажок 'Import autologin profile' и нажать кнопку 'Import profile' " %}</p>
+	<img class="img-demo1" src="/static/images/android4.PNG" align="center" alt="iphone">
+	<p>{% trans "5. На этой странице разришаем вход в профиль без сертификата  нажимая 'Accept'." %} </p>
+		<img class="img-demo1" src="/static/images/android5.PNG" align="center" alt="iphone">
+	<p>{% trans "6. Потом мы приходим профиль и пишем свой пароль, поставим флажик 'Save' как показано на картинке, чтобы сохранить свой профиль на приложение. И дальше соеденяемся с сервером нажимая кнопку 'Connect'." %}</p>
+		<img class="img-demo1" src="/static/images/android6.PNG" align="center" alt="iphone">
+	<p>{% trans "7. Потом разрешаем автоматичеки соединение, надо поставить флажок 'I trust this application' и  нажать  на 'OK'." %}</p>
+		<img class="img-demo1" src="/static/images/android7.PNG" align="center" alt="iphone">
+	<p>{% trans "8. Если все успешно прошло, то вы должны увидеть эту страницу и значок успешного соединения 'openvpn'. Спасибо, вы сейчас сможете пользоваться VPN." %}</p>
+		<img class="img-demo1" src="/static/images/android8.PNG" align="center" alt="iphone">
+    <img class="img-demo1" src="/static/images/android9.PNG" align="center" alt="iphone">
+    </div>
+
+</section>
+{% endblock %}

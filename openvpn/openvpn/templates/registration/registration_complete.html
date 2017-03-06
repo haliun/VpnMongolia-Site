@@ -1,0 +1,396 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% load i18n %}
+ <section id="slider" class="block background01">
+      <div class="row">
+        <div class="responsive-slider" data-spy="responsive-slider" data-autoplay="true">
+          <div class="slides" data-group="slides">
+            <ul>
+              <li>
+                <div class="slide-body" data-group="slide">
+                  <img src="/static/images/project5.jpg" alt="Slide01">
+                  <div class="slide_textholder">
+                    <div class="container holderinner">
+                      <div class="caption subheader" data-animate="slideAppearDownToUp" data-delay="500" data-length="300">
+                        <h1 class="color01">{%  trans "100% Free VPN." %}</h1>
+                      </div>
+                      <div class="caption learnmore" data-animate="slideAppearUpToDown" data-delay="500"> <a class="btn more color01 color01-hover" href="/#work">{%  trans "Как использовать" %}</a> <a class="btn more color01 color01-hover" href="about/">{% trans "Подробнее" %}</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="slide-body" data-group="slide">
+                  <img src="/static/images/project5.jpg" alt="Slide02">
+                  <div class="slide_textholder">
+                    <div class="container holderinner">
+                      <div class="caption subheader" data-animate="slideAppearDownToUp" data-delay="500" data-length="300">
+                        <h1 class="color01">{%  trans "No limit. No payment." %}</h1>
+                      </div>
+                      <div class="caption learnmore" data-animate="slideAppearUpToDown" data-delay="500"><a class="btn more color01 color01-hover" href="about/">{%  trans "Подробнее" %}</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+          <div class="pagerholder">  </div>
+        </div>
+      </div>
+    </section>
+
+	  <section id="services" class="block background01 animatedParent animateOnce">
+      <div class="row">
+        <div class="services">
+          <div class="animated fadeIn slow">
+            <h2>{%  trans "Сервисы" %}</h2>
+            <p>{%  trans "OpenVPN" %}
+              <br>{%  trans "Мы предлогаем услуги для разных платформов." %}</p>
+          </div>
+        </div>
+        <div role="tabpanel" class="animated fadeIn slow">
+          <ul class="nav nav-tabs tabhead" role="tablist">
+            <li class="active"><a href="#tab1" aria-controls="tab09a" role="tab" data-toggle="tab">Windows</a>
+            </li>
+            <li role="presentation"><a href="#tab2" aria-controls="tab09b" role="tab" data-toggle="tab">MAC/IOS</a>
+            </li>
+            <li role="presentation"><a href="#tab3" aria-controls="tab09c" role="tab" data-toggle="tab">Android</a>
+            </li>
+			<li role="presentation"><a href="#tab7" aria-controls="tab09c" role="tab" data-toggle="tab">Linux</a>
+            </li>
+          </ul>
+          <div class="tab-content background09">
+            <div role="tabpanel" id="tab1" class="boxes active tab-pane">
+              <div class="container">
+                <div class="holder">
+                  <div class="col color01 col-sm-6 m-item">
+                    <div class="box-holder background01">
+                      <div class="icone_box color01 col-sm-5 col-xs-4">
+                        <img class="img-responsive" src="/static/images/service01.jpg" alt="Project">
+                      </div>
+                      <div class="col-sm-7 col-xs-8 text_box color02">
+                        <h3>{%  trans "Для Windows компьютеров" %}</h3>
+                        <div class="text-holder">
+                          <p>{%  trans "Здесь можно скачать установщик для операционной системы Windows." %}</p> <a class="btn more background05 color01 color01-hover" href="/services/windows/"><i class="fa fa-arrow-right">&nbsp;</i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div role="tabpanel" class="boxes tab-pane" id="tab2">
+              <div class="container">
+                <div class="holder">
+                  <div class="col color01 col-sm-6 m-item">
+                    <div class="box-holder background01">
+                      <div class="icone_box color01 col-sm-5 col-xs-4">
+                        <img class="img-responsive" src="/static/images/services02.jpg" alt="Project">
+                      </div>
+                      <div class="col-sm-7 col-xs-8 text_box color02">
+                        <h3>{%  trans "Для IPhone, Ipad" %}</h3>
+                        <div class="text-holder">
+                          <p>{%  trans "Здесь можно скачать установщик для операционной системы Iphone и Ipad." %}</p> <a class="btn more background06 color01 color01-hover" href="/services/ios/"><i class="fa fa-arrow-right">&nbsp;</i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col color01 col-sm-6 m-item">
+                    <div class="box-holder background01">
+                      <div class="icone_box color01 col-sm-5 col-xs-4">
+                        <img class="img-responsive" src="/static/images/services04.jpg" alt="Project">
+                      </div>
+                      <div class="col-sm-7 col-xs-8 text_box color02">
+                        <h3>{%  trans "Для MAC компьютеров" %}</h3>
+                        <div class="text-holder">
+                          <p>{%  trans "Здесь можно скачать установщик для операционной системы MAC." %}</p> <a class="btn more background08 color01 color01-hover" href="/services/mac/"><i class="fa fa-arrow-right">&nbsp;</i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div role="tabpanel" class="boxes tab-pane" id="tab3">
+              <div class="container">
+                <div class="holder">
+
+
+                  <div class="col color01 col-sm-6 m-item">
+                    <div class="box-holder background01">
+                      <div class="icone_box color01 col-sm-5 col-xs-4">
+                        <img class="img-responsive" src="/static/images/services04.png" alt="Project">
+                      </div>
+                      <div class="col-sm-7 col-xs-8 text_box color02">
+                        <h3>{%  trans "Для телефонов Android " %}</h3>
+                        <div class="text-holder">
+                          <p>{%  trans "Здесь можно скачать установщик для операционной системы Android." %}</p> <a class="btn more background06 color01 color01-hover" href="/services/android/"><i class="fa fa-arrow-right">&nbsp;</i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+			<div role="tabpanel" class="boxes tab-pane" id="tab7">
+              <div class="container">
+                <div class="holder">
+
+
+                  <div class="col color01 col-sm-6 m-item">
+                    <div class="box-holder background01">
+                      <div class="icone_box color01 col-sm-5 col-xs-4">
+                        <img class="img-responsive" src="/static/images/services05.jpg" alt="Project">
+                      </div>
+                      <div class="col-sm-7 col-xs-8 text_box color02">
+                        <h3>{%  trans "Для компьютеров Linux" %}</h3>
+                        <div class="text-holder">
+                          <p>{%  trans "Здесь можно скачать установщик для операционной системы Linux." %}</p> <a class="btn more background06 color01 color01-hover" href="/services/linux/"><i class="fa fa-arrow-right">&nbsp;</i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	<section id="servers" class="block background01 animatedParent animateOnce">
+      <div class="row">
+        <div class="servers">
+          <div class="animated fadeIn slow">
+            <h2>{%  trans "Серверы" %}</h2>
+            <p>
+              {%  trans "У нас есть возможность выбрать серверы разных стран, разных континентов." %}</p>
+          </div>
+        </div>
+        <div role="tabpanel" class="animated fadeIn slow">
+          <ul class="nav nav-tabs tabhead" role="tablist">
+            <li class="active"><a href="#tab4" aria-controls="tab09a" role="tab" data-toggle="tab">{%  trans "Азия" %}</a>
+            </li>
+            <li role="presentation"><a href="#tab5" aria-controls="tab09b" role="tab" data-toggle="tab">{%  trans "Америка" %}</a>
+            </li>
+            <li role="presentation"><a href="#tab6" aria-controls="tab09c" role="tab" data-toggle="tab">{%  trans "Европа" %}</a>
+            </li>
+          </ul>
+
+          <div class="tab-content background09">
+            <div role="tabpanel" id="tab4" class="boxes active tab-pane">
+              <div class="container">
+                <div class="holder">
+                  <div class="col color01 col-sm-6 m-item">
+                    <div class="box-holder background01">
+                      <div class="icone_box color01 col-sm-5 col-xs-4">
+                        <img class="img-responsive" src="/static/images/server01.gif" alt="Server">
+                      </div>
+                      <div class="col-sm-7 col-xs-8 text_box color02">
+                        <h3>{%  trans "Япония" %}</h3>
+                        <div class="text-holder">{%  blocktrans %}
+                          <p>Server name: 153.127.249.210
+						  <br> Node: v4615.vir.kagoya.net
+						  <br> CPU: Intel(R) Xeon(R) E5640  @ 2.67GHz 3cores
+						  <br>Guaranteed memory: 1GB
+						  <br>Maximum memory: 2GB
+						  <br>HDD: 200GB</p> {%  endblocktrans %}{% if user.is_authenticated %}
+												<a class="btn more background05 color01 color01-hover" href="/email/"> <i class="fa fa-arrow-right">&nbsp;</i></a>
+											{% else %}
+												<a class="btn more background05 color01 color01-hover" href="/accounts/login/"> <i class="fa fa-arrow-right">&nbsp;</i></a>
+											{% endif %}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div role="tabpanel" class="boxes tab-pane" id="tab5">
+              <div class="container">
+                <div class="holder">
+                  <div class="col color01 col-sm-6 m-item">
+                    <div class="box-holder background01">
+                      <div class="icone_box color01 col-sm-5 col-xs-4">
+                        <img class="img-responsive" src="/static/images/server02.jpg" alt="Server">
+                      </div>
+                      <div class="col-sm-7 col-xs-8 text_box color02">
+                        <h3>{%  trans "США" %} </h3>
+                        <div class="text-holder">
+                          <p>{%  trans "Скоро..." %}</p> <a class="btn more background06 color01 color01-hover" href="#"><i class="fa fa-arrow-right">&nbsp;</i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+			</div>
+            <div role="tabpanel" class="boxes tab-pane" id="tab6">
+              <div class="container">
+                <div class="holder">
+
+                  <div class="col color01 col-sm-6 m-item">
+                    <div class="box-holder background01">
+                      <div class="icone_box color01 col-sm-5 col-xs-4">
+                        <img class="img-responsive" src="/static/images/server03.jpg" alt="Server">
+                      </div>
+                      <div class="col-sm-7 col-xs-8 text_box color02">
+                        <h3>{%  trans "Швеция" %} </h3>
+                        <div class="text-holder">
+                          <p>{%  trans "Скоро..." %}</p> <a class="btn more background06 color01 color01-hover" href="#"><i class="fa fa-arrow-right">&nbsp;</i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="work" class="block background01 animatedParent animateOnce">
+      <div class="container">
+        <div class="row">
+          <div class="projects">
+            <h2 class="animated fadeIn slow">{%  trans "Руководство использования " %}</h2>
+            <div id="Carousel06d" class="carousel slide">
+              <div class="portfolio">
+                <div id="ourprojects" class="carousel-inner">
+                  <div class="holder animated fadeIn slow">
+                    <div class="img-box col-md-4 col-sm-4 col-xs-12">
+                      <a href="/demo/windows/">
+                        <img class="img-responsive" src="/static/images/service01.jpg" alt="Project">
+                      </a>
+                    </div>
+                    <div class="img-box col-md-4 col-sm-4 col-xs-12">
+                      <a href="/demo/apple/">
+                        <img class="img-responsive" src="/static/images/serviceipad-iphone.jpg" alt="Project">
+                      </a>
+                    </div>
+                    <div class="img-box col-md-4 col-sm-4 col-xs-12">
+                      <a href="/demo/android/">
+                        <img class="img-responsive" src="/static/images/services04.png" alt="Project">
+                      </a>
+                    </div>
+                      <div class="img-box col-md-4 col-sm-4 col-xs-12">
+                      <a href="/demo/linux/">
+                        <img class="img-responsive" src="/static/images/services05.jpg" alt="Project">
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="block background01 animatedParent animateOnce">
+      <div class="container">
+        <div class="row">
+          <div class="team">
+            <h2 class="animated fadeIn slow">{%  trans "Наша команда" %}</h2>
+            <div class="holder animated fadeIn slow">
+              <div class="col col-md-3 col-sm-3 col-xs-12">
+                <div class="img_hoilder">
+                  <a href="javascript:void(0)">
+                    <img class="img-responsive" src="/static/images/creative03.jpg" alt="Article">
+                  </a>
+                </div>
+                <div class="text_holder">
+                  <h3><a class="color02 color01-hover03" href="javascript:void(0)">{% trans "Сысолетин Е. Г." %}</a></h3> <span class="color04">{%  trans "Руководитель" %}</span>
+                {%  trans "Старший преподаватель" %}
+				  <br>{%  trans "Кафедра информационных технологий " %}
+				  <br>{%  trans "Уральский Федеральный Университет," %}<br>{%  trans " г. Екатеринбург, Россия. " %} </p> <a class="btn more color02 color01-hover border-color06" href="http://my.mail.ru/mail/unclesal/"><i class="fa fa-facebook">&nbsp;</i></a>
+                  <a class="btn more color02 color01-hover border-color06" href="http://my.mail.ru/mail/unclesal/"><i class="fa fa-google-plus">&nbsp;</i>
+                                    </a>
+                </div>
+              </div>
+			  <div class="col col-md-3 col-sm-3 col-xs-12">
+                <div class="img_hoilder">
+                  <a href="javascript:void(0)">
+                    <img class="img-responsive" src="/static/images/creative01.jpg" alt="Article">
+                  </a>
+                </div>
+                <div class="text_holder">
+                  <h3><a class="color02 color01-hover03" href="javascript:void(0)">{%  trans "Цог Нандинбаатар" %} </a></h3> <span class="color04">{%  trans "Ментор" %}</span>
+                  <p>{%  trans "Преподаватель" %}<br> Mälardalen University College,<br>  {%trans "Швеция." %}</p> <a class="btn more color02 color01-hover border-color06" href="https://www.facebook.com/profile.php?id=100009075249857"><i class="fa fa-facebook">&nbsp;</i></a>
+                  <a class="btn more color02 color01-hover border-color06" href="https://plus.google.com/u/0/111092937075683793551"><i class="fa fa-google-plus">&nbsp;</i>
+                                    </a>
+                </div>
+              </div>
+              <div class="col col-md-3 col-sm-3 col-xs-12">
+                <div class="img_hoilder">
+                  <a href="javascript:void(0)">
+                    <img class="img-responsive" src="/static/images/creative2.jpg" alt="Article">
+                  </a>
+                </div>
+                <div class="text_holder">
+                  <h3><a class="color02 color01-hover03" href="javascript:void(0)">{%  trans "Довчинням Халиун" %}</a></h3> <span class="color04">{%  trans "Веб программист" %}</span>
+                  <p>{%  trans "Студент, программист " %}
+				  <br>{%  trans "Кафедра информационных технологий " %}
+				  <br>{%  trans "Уральский Федеральный Университет," %}<br> {%  trans "г. Екатеринбург, Россия." %}</p><a class="btn more color02 color01-hover border-color06" href="https://www.facebook.com/haliuna.haliuka"><i class="fa fa-facebook">&nbsp;</i></a>
+                  <a class="btn more color02 color01-hover border-color06" href="https://plus.google.com/u/0/107682441248981846694"><i class="fa fa-google-plus">&nbsp;</i>
+                                    </a>
+                </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ <section id="contact" class="block animatedParent animateOnce background02">
+      <div class="mail-section">
+        <div class="quickemail animated fadeIn slow">
+          <div class="container">
+            <div class="row">
+              <div class="mail_content">
+                <h2 class="color08">{% trans "Contact us" %}</h2>
+                <p class=" color04">{%  trans "Мы будем связываться с вами" %}!</p>
+                <div class="form col-md-8 col-xs-11">
+                  <form class="form-inline" role="form" action="/contacts/" method="post" > {% csrf_token %}
+                    <div class="fullwidth">
+                      <div class="left-feild col-md-6">
+                        <div class="form-group">
+                          <input type="text" class="form-control color01 background13 border-color08" name="name" placeholder={% trans "ФИО" %}>
+                        </div>
+                        <div class="form-group">
+                          <input type="email" class="form-control color01 background13 border-color08" name="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control color01 background13 border-color08" name="subject" placeholder={% trans "Вопрос"%}>
+                        </div>
+
+                      </div>
+                      <div class="right-feild col-md-6">
+                        <div class="form-group fullwidth">
+                          <textarea class="form-control color01 background13 border-color08" rows="3" name="message" placeholder={% trans "Текст" %}></textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="submitbutton fullwidth">
+                      <button type="submit" class="btn more background07 color01 color01-hover01">{% trans "Отправлять" %}</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+{% endblock %}

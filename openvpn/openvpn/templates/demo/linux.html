@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{%  load i18n %}
+{% block content %}
+
+<section id="demos" class="block background01 animatedParent animateOnce">
+	<div class="row">
+	 <div class="demos">
+          <div class="animated fadeIn slow">
+            <h2>{% trans "Руководство использования" %}</h2>
+            <p>Linux
+              <br>{% trans "Пошаговая инструкция с картинками" %}</p>
+          </div>
+        </div>
+	</div>
+	<div class="container">
+	<p>{% trans "1. Первое, что вам нужно сделать, это скачать на свой компьютер установщик программы OpenVPN. Для этого надо зайти в Terminal и если ваш ОС Debian/Ubuntu, то  как показано на ск.шоте. вводим команду sudo apt-get install openvpn. А если ваш ОС Fedora/Redhat/Centos, вводим вводим команду sudo yum install openvpn. Во время установки, когда будест спросить ответим 'yes' и видим что у нас установлен Openvpn." %}</p>
+		<img class="img-demo" src="/static/images/linux001.png" align="center" alt="Windows">
+    <img class="img-demo" src="/static/images/linux2.png" align="center" alt="Windows">
+	
+	<p>{% trans "2. После этого откроем браузер вводим наш адрес сервера с номером порта 943. (Вы сможете получить адрес сервера, логин и пароль по почте " %}{% if user.is_authenticated %}
+																																			<a href="/email/">{%  trans "здесь" %} </a>
+																																			{% else %}
+																																			<a href="/accounts/login/">{%  trans "здесь " %}</a>
+																																			{% endif %}).{% trans " На этой странице выбираем 'I understand this risks'" %} </p>
+		<img class="img-demo" src="/static/images/linux3.png" align="center" alt="Windows">
+	<p>{% trans "3. Дальше выбираем 'Add exception' и также 'Confirm security exception'." %}.</p>
+		<img class="img-demo" src="/static/images/linux4.png" align="center" alt="Windows">
+    <img class="img-demo" src="/static/images/linux5.png" align="center" alt="Windows">
+	<p>{% trans "4. На странице Openvpn вводим логин и пароль, которые мы прислали вам по почте, выбираем Login и нажмем Go." %} </p>
+		<img class="img-demo" src="/static/images/linux6.png" align="center" alt="Windows">
+	<p>{% trans "5. После успешного входа выбираем пункт 'Yourself (user-locked profile) и загружим его на свой компьютер." %} </p>
+		<img class="img-demo" src="/static/images/linux7.png" align="center" alt="Windows">
+		<img class="img-demo" src="/static/images/linux8.png" align="center" alt="Windows">
+        <img class="img-demo" src="/static/images/linux9.png" align="center" alt="Windows">
+	<p>{% trans "6. Обратно приходим в терминал и зайдем в папку Downloads (загрузки) и видим что тут наш файл client.ovpn находися. Дальше вводим команду 'sudo openvpn --config client.ovpn', чтобы конфигурировать наш профиль пользователя." %}</p>
+		<img class="img-demo" src="/static/images/linux10.png" align="center" alt="Windows">
+	<p>{% trans "7. Во время конфигурации вводим снова свой логин и пароль." %}</p>
+		<img class="img-demo" src="/static/images/linux11.png" align="center" alt="Windows">
+	<p>{% trans "8. Если все правильно в конце команды все должно выглядить как показано на картинке." %}</p>
+		<img class="img-demo" src="/static/images/linux12.png" align="center" alt="Windows">
+	<p>{% trans "9. Если вы хотите проверить деиствительно ли поменялись ваш адрес можно проверить из интернета зайти в какой нибудь сайт, который проверяет IP-address и так увидем только наш адрес сервера. Поздравляю вы сейчас сможете пользоваться VPN сервисом! " %}</p>
+        <img class="img-demo" src="/static/images/linux13.png" align="center" alt="Windows">
+    </div>                
+	
+</section>
+
+{% endblock %}

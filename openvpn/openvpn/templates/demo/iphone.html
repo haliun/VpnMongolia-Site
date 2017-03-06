@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block content %}
+    {%  load i18n %}
+<section id="demos" class="block background01 animatedParent animateOnce">
+	<div class="row">
+	 <div class="demos">
+          <div class="animated fadeIn slow">
+            <h2>{%  trans "Руководство использования" %}</h2>
+            <p>IPhone
+              <br>{%  trans "Пошаговая инструкция с картинками" %}</p>
+          </div>
+        </div>
+	</div>
+	<div class="container">
+	<p>{%  trans "1. Первое, что Вам нужно сделать, это скачать на свой IPhone приложение OpenVPN (взять ее можно на" %} <a href="http://openvpn.net/clients/index.php?client=openvpn_connect_ios" target="_blank">Apple Store</a>).
+		</p>
+		<img class="img-demo1" src="/static/images/iphone0.PNG" align="center" alt="iphone">
+	
+	<p>{%  trans "2. После успешного скачивания вы должны видеть такой значок на экране телефона." %} </p>
+		<img class="img-demo1" src="/static/images/iphone01.PNG" align="center" alt="iphone">
+	<p>{%  trans "3. Когда откроется приложение, на поле как показано вводим адрес нашего сервера. Можете узнать адрес пройдя по ссылке  " %}{% if user.is_authenticated %}<a href="/email/">{%  trans "здесь" %} </a>
+																																			{% else %}
+																																			<a href="/accounts/login/">{%  trans "здесь " %}</a>
+																																			{% endif %}).</p>
+		<img class="img-demo1" src="/static/images/iphone1.jpg" align="center" alt="iphone">
+	<p>{%  trans "4. Потом когда откроется эта страница, должны ввести на полях username и password написать логин и пароль, которые мы вам давали с расширением .txt после автиризации (взять ее можно" %} {% if user.is_authenticated %}
+																																			<a href="/email/">{%  trans "здесь" %} </a>
+																																			{% else %}
+																																			<a href="/accounts/login/">{%  trans "здесь " %}</a>
+																																			{% endif %}). {%  trans "И выбрать 'connect' и нажать 'go'." %} </p>
+		<img class="img-demo1" src="/static/images/iphone2.PNG" align="center" alt="iphone">
+	<p>{%  trans "5. На этой странице скачиваем профиль пользователя нажимая 'Yourself(user-locked profile)' и потом откроем  client.ovpn файл." %} </p>
+		<img class="img-demo1" src="/static/images/iphone3.PNG" align="center" alt="iphone">
+		<img class="img-demo1" src="/static/images/iphone4.PNG" align="center" alt="iphone">
+	<p>{%  trans "6. Потом мы автоматически приходим в приложение обратно и надо нажать на значок плюс как показано на картинке, чтобы добавить свой профиль на приложении." %}</p>
+		<img class="img-demo1" src="/static/images/iphone5.PNG" align="center" alt="iphone">
+	<p>{%  trans "7. Опять вводим логин и пароль, которыие скачали на шаге 4 и дальше на включаем автоматичеки сохранение 'Save'" %}.</p>
+		<img class="img-demo1" src="/static/images/iphone6.PNG" align="center" alt="iphone">
+	<p>{%  trans "8. Чтобы соедениться на сервер включаем 'Connected' и потом разрешаем автоматичеки соединение нажимая на 'Yes'." %}</p>
+		<img class="img-demo1" src="/static/images/iphone7.PNG" align="center" alt="iphone">
+		<img class="img-demo1" src="/static/images/iphone8.PNG" align="center" alt="iphone">
+	<p>{%  trans "9. Если все успешно прошло, то вы должны увидеть значок успешного соединения 'vpn'." %}</p>
+		
+		<img class="img-demo1" src="/static/images/iphone9.PNG" align="center" alt="iphone">
+    </div>                
+	
+</section>
+{% endblock %}

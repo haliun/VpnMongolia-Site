@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% block content %}
+    {%  load i18n %}
+        {% load bootstrap_tags %}
+<div class="container">
+	<div class="row">
+	<div class="col-md-6 col-md-offset-3">
+		<div class="panel panel-login">
+			<div class="panel-heading">
+				<div class="row">
+					<div class="col-xs-6">
+						<a href="{% url 'auth_login' %}" class="active" id="login-form-link"> {% trans  "Логин" %} </a>
+					</div>
+					<div class="col-xs-6">
+						<a href="{% url 'registration_register' %}" id="register-form-link">{% trans  "Регистрация" %}</a>
+					</div>
+				</div>
+				<hr>
+			</div>
+		<div class="panel-body">
+			<div class="row">
+				<div class="col-lg-12">
+					<form id="login-form" action="." method="post" role="form" style="display: block;">{% csrf_token %}
+						<img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Ovpntech_logo-s_REVISED.png" class="img-logo" alt="" />
+
+                    {{ form|as_bootstrap }}
+                        <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-success" value={% trans  "Войти" %} />
+                        <input type="hidden" name="next" value="{{ next }}" />
+
+					</form><br>
+             <p>{% trans "Forgot password" %}? <a href="{% url 'auth_password_reset' %}" style="position: relative">{% trans "Reset it" %}</a>!</p>
+
+
+					<form id="register-form" action="." method="post" role="form" style="display: none;">{% csrf_token %}
+						<img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Ovpntech_logo-s_REVISED.png" class="img-logo" alt="" />
+						<div class="form-group">
+							<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder={% trans  "Имя пользователя" %} value="">{{  form.username }}
+						</div>
+						<div class="form-group">
+							<input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
+						</div>
+						<div class="form-group">
+							<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder={% trans  "Пароль" %}>
+						</div>
+						<div class="form-group">
+							<input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder={% trans  "Повторите пароль" %}>
+						</div>
+						<div class="form-group">
+							<div class="row">
+								<div class="col-sm-6 col-sm-offset-3">
+									<input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-success" value={% trans  "Регистрация" %}>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	</div>
+</div>
+{% endblock %}

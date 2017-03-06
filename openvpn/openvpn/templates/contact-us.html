@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% load i18n %}
+<section id="contact" class="block animatedParent animateOnce background02">
+      <div class="mail-section">
+        <div class="quickemail animated fadeIn slow">
+          <div class="container">
+            <div class="row">
+              <div class="mail_content">
+                <h2 class="color08">Contact us</h2>
+                <p class=" color04">{%  trans "Мы будем связываться с вами" %}!</p>
+                <div class="form col-md-8 col-xs-11">
+                  <form class="form-inline" role="form" action="/contacts/" method="post" > {% csrf_token %}
+                    <div class="fullwidth">
+                      <div class="left-feild col-md-6">
+                        <div class="form-group">
+                          <input type="text" class="form-control color01 background13 border-color08" name="name" placeholder={% trans "ФИО" %}>
+                        </div>
+                        <div class="form-group">
+                          <input type="email" class="form-control color01 background13 border-color08" name="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control color01 background13 border-color08" name="subject" placeholder={% trans "Как помочь вам?"%}>
+                        </div>
+
+                      </div>
+                      <div class="right-feild col-md-6">
+                        <div class="form-group fullwidth">
+                          <textarea class="form-control color01 background13 border-color08" rows="3" name="message" placeholder={% trans "Сюда напишите текст" %}></textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="submitbutton fullwidth">
+                      <button type="submit" class="btn more background07 color01 color01-hover01">{% trans "Отправлять" %}</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+{%  endblock %}
